@@ -19,7 +19,7 @@ public class MineBot {
     public static void main(String[] args){
         IDiscordClient discordClient = null;
         try {
-            discordClient = BotUtils.getBuiltDiscordClient("NTQxNzA0NTA1MTIxODMzMDEw.DzkyIA.uOFTCEuOJNDtCVRewobTdtl9HZA");
+            discordClient = BotUtils.getBuiltDiscordClient("*bot token removed*");
             if (!discordClient.isLoggedIn()){
                 discordClient.login();
             }
